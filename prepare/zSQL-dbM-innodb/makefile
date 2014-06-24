@@ -1,0 +1,208 @@
+#CFLAGS=-c -w -g
+CFLAGS=-c -w  -gdwarf-2 -g3
+
+#*.o: *.c
+#	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+#
+#innodb: btr0btr.o btr0cur.o btr0pcur.o btr0sea.o  buf0buddy.o buf0buf.o buf0flu.o buf0lru.o buf0rea.o  data0data.o data0type.o  dict0boot.o dict0crea.o dict0dict.o dict0load.o dict0mem.o  dyn0dyn.o  eval0eval.o eval0proc.o  fil0fil.o  fsp0fsp.o  fut0fut.o fut0lst.o  ha0ha.o ha0storage.o  hash0hash.o  ibuf0ibuf.o  lexyy.o  lock0iter.o lock0lock.o  log0log.o log0recv.o  mach0data.o  mem0mem.o mem0pool.o  mtr0log.o mtr0mtr.o  os0file.o os0proc.o os0sync.o os0thread.o  page0cur.o page0page.o page0zip.o   pars0sym.o pars0grm.o pars0pars.o pars0opt.o   que0que.o  read0read.o  rem0cmp.o rem0rec.o  row0ext.o row0ins.o row0merge.o row0mysql.o row0purge.o row0row.o row0sel.o row0uins.o row0umod.o row0undo.o row0upd.o row0vers.o  srv0srv.o srv0start.o  sync0arr.o sync0rw.o sync0sync.o  thr0loc.o  trx0i_s.o trx0purge.o trx0rec.o trx0roll.o trx0rseg.o trx0sys.o trx0trx.o trx0undo.o  usr0sess.o  ut0byte.o ut0dbg.o ut0list.o ut0mem.o ut0rbt.o ut0rnd.o ut0ut.o ut0vec.o ut0wqueue.o   innodb_test1.o
+innodb: btr0btr.o btr0cur.o btr0pcur.o btr0sea.o  buf0buddy.o buf0buf.o buf0flu.o buf0lru.o buf0rea.o  data0data.o data0type.o  dict0boot.o dict0crea.o dict0dict.o dict0load.o dict0mem.o  dyn0dyn.o  eval0eval.o eval0proc.o  fil0fil.o  fsp0fsp.o  fut0fut.o fut0lst.o  ha0ha.o ha0storage.o  hash0hash.o  ibuf0ibuf.o  lexyy.o  lock0iter.o lock0lock.o  log0log.o log0recv.o  mach0data.o  mem0mem.o mem0pool.o  mtr0log.o mtr0mtr.o  os0file.o os0proc.o os0sync.o os0thread.o  page0cur.o page0page.o page0zip.o   pars0sym.o pars0grm.o pars0pars.o pars0opt.o   que0que.o  read0read.o  rem0cmp.o rem0rec.o  row0ext.o row0ins.o row0merge.o row0mysql.o row0purge.o row0row.o row0sel.o row0uins.o row0umod.o row0undo.o row0upd.o row0vers.o  srv0srv.o srv0start.o  sync0arr.o sync0rw.o sync0sync.o  thr0loc.o  trx0i_s.o trx0purge.o trx0rec.o trx0roll.o trx0rseg.o trx0sys.o trx0trx.o trx0undo.o  usr0sess.o  ut0byte.o ut0dbg.o ut0list.o ut0mem.o ut0rbt.o ut0rnd.o ut0ut.o ut0vec.o ut0wqueue.o   innodb_test1.o   ha_innodb.o
+#	gcc -o $@ $^ -lpthread -lz -g
+	gcc -o $@ $^ -lpthread -lz  -gdwarf-2 -g3
+btr0btr.o: btr0btr.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+btr0cur.o: btr0cur.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+btr0pcur.o: btr0pcur.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+btr0sea.o: btr0sea.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+buf0buddy.o: buf0buddy.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+buf0buf.o: buf0buf.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+buf0flu.o: buf0flu.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+buf0lru.o: buf0lru.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+buf0rea.o: buf0rea.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+data0data.o: data0data.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+data0type.o: data0type.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+dict0boot.o: dict0boot.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+dict0crea.o: dict0crea.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+dict0dict.o: dict0dict.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+dict0load.o: dict0load.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+dict0mem.o: dict0mem.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+dyn0dyn.o: dyn0dyn.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+eval0eval.o: eval0eval.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+eval0proc.o: eval0proc.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+fil0fil.o: fil0fil.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+fsp0fsp.o: fsp0fsp.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+fut0fut.o: fut0fut.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+fut0lst.o: fut0lst.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+ha0ha.o: ha0ha.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+ha0storage.o: ha0storage.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+hash0hash.o: hash0hash.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+ibuf0ibuf.o: ibuf0ibuf.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+lexyy.o: lexyy.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+lock0iter.o: lock0iter.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+lock0lock.o: lock0lock.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+log0log.o: log0log.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+log0recv.o: log0recv.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+mach0data.o: mach0data.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+mem0dbg.o: mem0dbg.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+mem0mem.o: mem0mem.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+mem0pool.o: mem0pool.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+mtr0log.o: mtr0log.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+mtr0mtr.o: mtr0mtr.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+os0file.o: os0file.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+os0proc.o: os0proc.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+os0sync.o: os0sync.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+os0thread.o: os0thread.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+page0cur.o: page0cur.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+page0page.o: page0page.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+page0zip.o: page0zip.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+pars0grm.o: pars0grm.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+pars0opt.o: pars0opt.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+pars0pars.o: pars0pars.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+pars0sym.o: pars0sym.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+que0que.o: que0que.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+read0read.o: read0read.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+rem0cmp.o: rem0cmp.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+rem0rec.o: rem0rec.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+row0ext.o: row0ext.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+row0ins.o: row0ins.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+row0merge.o: row0merge.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+row0mysql.o: row0mysql.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+row0purge.o: row0purge.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+row0row.o: row0row.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+row0sel.o: row0sel.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+row0uins.o: row0uins.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+row0umod.o: row0umod.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+row0undo.o: row0undo.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+row0upd.o: row0upd.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+row0vers.o: row0vers.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+srv0srv.o: srv0srv.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+srv0start.o: srv0start.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+sync0arr.o: sync0arr.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+sync0rw.o: sync0rw.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+sync0sync.o: sync0sync.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+thr0loc.o: thr0loc.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+trx0i_s.o: trx0i_s.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+trx0purge.o: trx0purge.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+trx0rec.o: trx0rec.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+trx0roll.o: trx0roll.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+trx0rseg.o: trx0rseg.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+trx0sys.o: trx0sys.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+trx0trx.o: trx0trx.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+trx0undo.o: trx0undo.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+usr0sess.o: usr0sess.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+ut0byte.o: ut0byte.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+ut0dbg.o: ut0dbg.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+ut0list.o: ut0list.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+ut0mem.o: ut0mem.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+ut0rbt.o: ut0rbt.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+ut0rnd.o: ut0rnd.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+ut0ut.o: ut0ut.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+ut0vec.o: ut0vec.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+ut0wqueue.o: ut0wqueue.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+#
+#ha_innodb.o: ha_innodb.cc
+#ha_innodb.o: ha_innodb__.cc #----2011-10-08-18-24--18-28:
+ha_innodb.o: ha_innodb__.c
+#	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+# #=>os0file.c中用到的"innobase_mysql_tmpfile"函数定义在此！！！----2011-10-08-16-50；；;
+#	g++ -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)  #----2011-10-08-17-07！！！；；;
+	gcc -o $@ -x c $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+#handler0alter.o: handler0alter.cc
+#	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+#i_s.o: i_s.cc
+#	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+#
+innodb_test1.o: innodb_test1.c
+	gcc -o $@ $< -I./include -I./include2 -DSTACK_DIRECTION=1 $(CFLAGS)
+
+
+
+#gcc -o a2.out test.c -I./include -I./include2 -DSTACK_DIRECTION=1
+

@@ -1,0 +1,1656 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Oct 13 09:04:00 2011
+;; Desktop file format version 206
+;; Emacs version 23.1.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("reserve_dict_mutex" "sym_node_struct" "select_list" "search_condition" "select_s" "select" "que_thr_step" "pars_select" "pars_proce" "que_thr_" "in" "que_thr_node_step" "err =" "err" "que_thr_step" "que_run_threads_low"))
+(setq regexp-search-ring nil)
+(setq register-alist (list (desktop-list* 24 (let ((mk (make-marker))) (add-hook 'desktop-delay-hook (list 'lambda '() (list 'set-marker mk nil (get-buffer " *temp*")))) mk))))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/root/innobase_/innodb_test1.c"
+  "innodb_test1.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  1793
+  '(1914 nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/include/dict0dict.ic"
+  "dict0dict.ic"
+  'fundamental-mode
+  '(linum-mode)
+  7201
+  '(23267 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/que0que.c"
+  "que0que.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  35942
+  '(35489 nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/pars0pars.c"
+  "pars0pars.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  19402
+  '(19320 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/include/pars0sym.h"
+  "pars0sym.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  6783
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/pars0grm.y"
+  "pars0grm.y"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  9575
+  '(8477 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/dict0crea.c"
+  "dict0crea.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  17451
+  '(36542 nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/include/db0err.h"
+  "db0err.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  1392
+  '(1376 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/row0ins.c"
+  "row0ins.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  66082
+  '(66068 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/include/dict0mem.h"
+  "dict0mem.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  16004
+  '(15980 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/include/eval0proc.ic"
+  "eval0proc.ic"
+  'fundamental-mode
+  '(linum-mode)
+  1677
+  '(1645 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/srv0srv.c"
+  "srv0srv.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  116802
+  '(117202 nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/pars0grm.c"
+  "pars0grm.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  79314
+  '(79206 nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/lexyy.c"
+  "lexyy.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  48618
+  '(1 nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/include/pars0pars.h"
+  "pars0pars.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  3830
+  '(20482 nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/makefile"
+  "makefile"
+  'makefile-gmake-mode
+  '(linum-mode)
+  2212
+  '(2199 nil)
+  t
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/srv0start.c"
+  "srv0start.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  72163
+  '(63317 nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/include/buf0buf.h"
+  "buf0buf.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  44996
+  '(4389 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/buf0flu.c"
+  "buf0flu.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  38482
+  '(36891 nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/include/buf0types.h"
+  "buf0types.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  2504
+  '(2223 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/redis-2.4.0-rc8/src/redis.c"
+  "redis.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  61355
+  '(1 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/buf0buf.c"
+  "buf0buf.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  126786
+  '(35214 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/ibuf0ibuf.c"
+  "ibuf0ibuf.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  69356
+  '(69124 nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/log0log.c"
+  "log0log.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  54805
+  '(58153 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/include/log0log.ic"
+  "log0log.ic"
+  'fundamental-mode
+  '(linum-mode)
+  11896
+  '(11391 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/os0thread.c"
+  "os0thread.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  6584
+  '(6552 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/include/srv0start.h"
+  "srv0start.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  3217
+  '(3195 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/row0mysql.c"
+  "row0mysql.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  87994
+  '(84342 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/include/log0log.h"
+  "log0log.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  5184
+  '(27722 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/os0proc.c"
+  "os0proc.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  2090
+  '(1 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/fsp0fsp.c"
+  "fsp0fsp.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  31355
+  '(31548 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/os0file.c"
+  "os0file.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  51993
+  '(52654 nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/fil0fil.c"
+  "fil0fil.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  46784
+  '(46783 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/dict0boot.c"
+  "dict0boot.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  13169
+  '(7676 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/log0recv.c"
+  "log0recv.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  77389
+  '(77389 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/buf0rea.c"
+  "buf0rea.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  5258
+  '(5351 nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/trx0sys.c"
+  "trx0sys.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  40405
+  '(40384 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/mem0mem.c"
+  "mem0mem.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  9784
+  '(8499 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/include/mem0mem.ic"
+  "mem0mem.ic"
+  'fundamental-mode
+  '(linum-mode)
+  11676
+  '(11633 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/mem0pool.c"
+  "mem0pool.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  12983
+  '(11177 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/test.c"
+  "test.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  178497
+  '(160093 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/ha_innodb_.cc"
+  "ha_innodb_.cc"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  339925
+  '(339716 nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/ha_innodb__.cc"
+  "ha_innodb__.cc"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  5771
+  '(5976 nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/usr/lib/gcc/i686-redhat-linux/4.4.4/include/stddef.h"
+  "stddef.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  7145
+  '(6961 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/ha_innodb__.c"
+  "ha_innodb__.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  6163
+  '(7311 nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/InnoSQL-5.5.8/sql/mysqld.h"
+  "mysqld.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  12944
+  '(12892 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/InnoSQL-5.5.8/sql/sql_class.cc"
+  "sql_class.cc"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  6704
+  '(6640 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/InnoSQL-5.5.8/dbug/dbug.c"
+  "dbug.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  26455
+  '(25798 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/InnoSQL-5.5.8/mysys/my_open.c"
+  "my_open.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  4423
+  '(2900 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/InnoSQL-5.5.8/mysys/my_malloc.c"
+  "my_malloc.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  3639
+  '(3346 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/InnoSQL-5.5.8/include/mysql/psi/mysql_thread.h"
+  "mysql_thread.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  18728
+  '(18297 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/InnoSQL-5.5.8/include/my_pthread.h"
+  "my_pthread.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  1460
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/include2/m_string.h"
+  "m_string.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  1742
+  '(1202 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/main/dotcode.c"
+  "dotcode.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  5867
+  '(5197 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/main/attrib.c"
+  "attrib.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  7240
+  '(6731 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/main/main.c"
+  "main.c"
+  'c-mode
+  '(overwrite-mode abbrev-mode linum-mode)
+  5992
+  '(7516 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode . overwrite-mode-textual)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/include/Rinternals.h"
+  "Rinternals.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  17460
+  '(17460 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/main/eval.c"
+  "eval.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  10743
+  '(50294 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/main/errors.c"
+  "errors.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  41036
+  '(41036 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/include/Defn.h"
+  "Defn.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  10366
+  '(9851 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/main/names.c"
+  "names.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  2261
+  '(2818 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/main/memory.c"
+  "memory.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  66398
+  '(59462 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/include/Rdefines.h"
+  "Rdefines.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  1134
+  '(2278 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/APMS_server/analyze.cpp"
+  "analyze.cpp"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  3709
+  '(242 nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/main/array.c"
+  "array.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  6744
+  '(1 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/main/plot.c"
+  "plot.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  9762
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/main/plot3d.c"
+  "plot3d.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  34144
+  '(1 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/main/context.c"
+  "context.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  23155
+  '(8776 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/include/Rinlinedfuns.h"
+  "Rinlinedfuns.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  5379
+  '(5343 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/main/dstruct.c"
+  "dstruct.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  1330
+  '(1278 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/main/gram.c"
+  "gram.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  103068
+  '(102895 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/main/gramRd.c"
+  "gramRd.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  67322
+  '(1 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/APMS_server/conn.c"
+  "conn.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  6420
+  '(10861 nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/buffer.c"
+  "buffer.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  60180
+  '(13775 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/main/sysutils.c"
+  "sysutils.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  7735
+  '(1 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/unix/system.c"
+  "system.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  4044
+  '(11354 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/main/graphics.c"
+  "graphics.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  97129
+  '(69305 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/APMS_sensor/contrib/apps/sensord/sensord.c"
+  "sensord.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  32174
+  '(7471 nil)
+  t
+  nil
+  '((buffer-file-coding-system . chinese-gbk-dos)))
+
+(desktop-create-buffer 206
+  "/root/R-2.13.1/src/unix/Rembedded.c"
+  "Rembedded.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  2262
+  '(2247 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/RInside/inst/examples/standard/rinside_sample0.cpp"
+  "rinside_sample0.cpp"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  354
+  '(nil nil)
+  t
+  nil
+  '((tab-width . 8) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/RInside/src/RInside.cpp"
+  "RInside.cpp"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  1647
+  '(7920 nil)
+  t
+  nil
+  '((tab-width . 8) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/llvm-2.9/lib/Support/ManagedStatic.cpp"
+  "ManagedStatic.cpp"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  1792
+  '(1449 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/llvm-2.9/include/llvm/Support/ManagedStatic.h"
+  "ManagedStatic.h"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  3302
+  '(674 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/llvm-2.9/lib/VMCore/LLVMContext.cpp"
+  "LLVMContext.cpp"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  833
+  '(899 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/llvm-2.9/include/llvm/LLVMContext.h"
+  "LLVMContext.h"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  3052
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/llvm-2.9/lib/VMCore/Function.cpp"
+  "Function.cpp"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  4991
+  '(4262 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/llvm-2.9/lib/ExecutionEngine/ExecutionEngine.cpp"
+  "ExecutionEngine.cpp"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  15155
+  '(1 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/llvm-2.9/include/llvm/Target/TargetSelect.h"
+  "TargetSelect.h"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  4280
+  '(1 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/llvm-2.9/lib/VMCore/Verifier.cpp"
+  "Verifier.cpp"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  75296
+  '(1 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/llvm-2.9/lib/VMCore/Module.cpp"
+  "Module.cpp"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  2419
+  '(1 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/bufferevent_sock.c"
+  "bufferevent_sock.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  1
+  '(8030 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/bufferevent.c"
+  "bufferevent.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  1
+  '(13852 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/RockSolid_Lab/rocklab.c"
+  "rocklab.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  17854
+  '(5523 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/evbuffer-internal.h"
+  "evbuffer-internal.h"
+  'c-mode
+  '(overwrite-mode abbrev-mode linum-mode)
+  3688
+  '(3266 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode . overwrite-mode-textual)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/bufferevent_ratelim.c"
+  "bufferevent_ratelim.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  6657
+  '(8192 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/linux-2.6.21/include/linux/pci.h"
+  "pci.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  11406
+  '(1 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/linux-2.6.21/include/linux/mod_devicetable.h"
+  "mod_devicetable.h"
+  'c-mode
+  '(overwrite-mode abbrev-mode linum-mode)
+  340
+  '(310 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode . overwrite-mode-textual)))
+
+(desktop-create-buffer 206
+  "/root/linux-2.6.21/include/asm-generic/vmlinux.lds.h"
+  "vmlinux.lds.h"
+  'ld-script-mode
+  '(linum-mode)
+  7880
+  '(1 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/linux-2.6.21/drivers/net/e100.c"
+  "e100.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/linux-2.6.21/arch/i386/kernel/vmlinux.lds.S"
+  "vmlinux.lds.S"
+  'ess-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/linux-2.6.21/include/linux/init.h"
+  "init.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  2829
+  '(3923 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/linux-2.6.21/include/linux/skbuff.h"
+  "skbuff.h<2>"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  6769
+  '(1 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/usr/src/kernels/2.6.32-71.el6.i686/include/linux/skbuff.h"
+  "skbuff.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  10173
+  '(9570 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/chenshuo-recipes-6b1f253/pingpong/libevent/bench.c"
+  "bench.c<2>"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  2362
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/include/data0type.ic"
+  "data0type.ic"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  2969
+  '(2946 nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/event.c"
+  "event.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  44994
+  '(44964 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/usr/local/include/event2/event_struct.h"
+  "event_struct.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  3669
+  '(3497 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/sample/http-server.c"
+  "http-server.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  8659
+  '(1063 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/llvm-2.9/include/llvm/Module.h"
+  "Module.h"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  10227
+  '(6523 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/http.c"
+  "http.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  21210
+  '(1 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/event-internal.h"
+  "event-internal.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  8523
+  '(2068 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/signal.c"
+  "signal.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  6756
+  '(9187 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/epoll.c"
+  "epoll.c"
+  'c-mode
+  '(overwrite-mode abbrev-mode linum-mode)
+  12255
+  '(4169 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode . overwrite-mode-textual)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/evmap.c"
+  "evmap.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  12369
+  '(7204 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/usr/local/include/event2/event.h"
+  "event.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  21693
+  '(1928 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/test/bench_httpclient.c"
+  "bench_httpclient.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  3649
+  '(1957 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/test/bench_http.c"
+  "bench_http.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  3752
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "libevent-2.0.12-stable"
+  'dired-mode
+  '(linum-mode)
+  9134
+  '(nil nil)
+  t
+  '("/root/libevent-2.0.12-stable/")
+  nil)
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/minheap-internal.h"
+  "minheap-internal.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  3453
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/evsignal-internal.h"
+  "evsignal-internal.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  1784
+  '(1 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/ht-internal.h"
+  "ht-internal.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  9533
+  '(1 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/listener.c"
+  "listener.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  5025
+  '(7000 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/changelist-internal.h"
+  "changelist-internal.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  3632
+  '(3024 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/evutil.c"
+  "evutil.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  10339
+  '(10337 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/include/event2/util.h"
+  "util.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  11596
+  '(11346 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/sample/event-test.c"
+  "event-test.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  1217
+  '(1120 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/include/event2/event_compat.h"
+  "event_compat.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  9093
+  '(9640 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/libevent-2.0.12-stable/test/bench.c"
+  "bench.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  4501
+  '(2548 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/usr/local/include/event2/buffer.h"
+  "buffer.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  4108
+  '(2299 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/usr/include/c++/4.4.4/bits/stringfwd.h"
+  "stringfwd.h"
+  'c++-mode
+  '(overwrite-mode abbrev-mode linum-mode)
+  1761
+  '(1724 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode . overwrite-mode-textual)))
+
+(desktop-create-buffer 206
+  "/usr/include/c++/4.4.4/fstream"
+  "fstream"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  12458
+  '(7876 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/usr/include/c++/4.4.4/ostream"
+  "ostream"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  2568
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/APMS_server/neo4jtest.java"
+  "neo4jtest.java"
+  'java-mode
+  '(abbrev-mode linum-mode)
+  518
+  '(2575 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/RInside/inst/include/RInsideAutoloads.h"
+  "RInsideAutoloads.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  13263
+  '(234 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/RInside/inst/include/RInside.h"
+  "RInside.h"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  1377
+  '(nil nil)
+  t
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/Rcpp/inst/include/RcppCommon.h"
+  "RcppCommon.h"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  4058
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/APMS_sensor/contrib/proj/eissensor/m16c/lwbt_eth/maintask.c"
+  "maintask.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  18946
+  '(18293 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-dos)))
+
+(desktop-create-buffer 206
+  "/root/APMS_sensor/lwip1.1.0/src/netif/ppp/ppp.c"
+  "ppp.c<2>"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  40535
+  '(35397 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/public/oracle_install/runInstaller2"
+  "runInstaller2"
+  'sh-mode
+  '(linum-mode)
+  1840
+  '(1839 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/APMS_sensor/contrib/plugin/src/netif/eislab_ppp/ppp.c"
+  "ppp.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  4932
+  '(3724 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/APMS_sensor/lwip1.1.0/src/core/tcp_out.c"
+  "tcp_out.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  3277
+  '(3003 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/APMS_sensor/lwip1.1.0/src/core/tcp.c"
+  "tcp.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  2985
+  '(4453 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-dos)))
+
+(desktop-create-buffer 206
+  "/root/APMS_sensor/hal/m16c/no_rtos/no_rtos_main.c"
+  "no_rtos_main.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  1089
+  '(1 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-dos)))
+
+(desktop-create-buffer 206
+  "/root/RInside/src/MemBuf.cpp"
+  "MemBuf.cpp"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  1029
+  '(1029 nil)
+  nil
+  nil
+  '((tab-width . 8) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/RInside/inst/include/RInsideEnvVars.h"
+  "RInsideEnvVars.h"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  825
+  '(825 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/usr/include/c++/4.4.4/bits/stl_vector.h"
+  "stl_vector.h"
+  'c++-mode
+  '(abbrev-mode linum-mode)
+  18187
+  '(21026 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/include/fut0fut.ic"
+  "fut0fut.ic"
+  'fundamental-mode
+  '(linum-mode)
+  1971
+  '(1957 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/dict0load.c"
+  "dict0load.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  48052
+  '(45005 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/root/innobase_/row0sel.c"
+  "row0sel.c"
+  'c-mode
+  '(abbrev-mode linum-mode)
+  54866
+  '(54852 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
