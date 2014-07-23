@@ -1,0 +1,21 @@
+utils.localeToCharset(locale = Sys.getlocale("LC_CTYPE"))  //从一个Locale名称选择一个合适的编码名称(字符串命名的语言环境)
+
+
+
+stats.dchisq(x, df, ncp=0, log = FALSE)                       //给出密度
+stats.pchisq(q, df, ncp=0, lower.tail = TRUE, log.p = FALSE)  //给出分布函数
+stats.qchisq(p, df, ncp=0, lower.tail = TRUE, log.p = FALSE)  //给出分量功能
+stats.rchisq(n, df, ncp=0)                                    //产生随机的偏离
+
+
+
+
+
+
+
+
+
+
+base.abbreviate(names.arg, minlength = 4, use.classes = TRUE, dot = FALSE, strict = FALSE, method = c("left.kept", "both.sides"))
+
+
